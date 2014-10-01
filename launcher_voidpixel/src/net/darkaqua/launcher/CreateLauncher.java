@@ -1,12 +1,12 @@
-package net.darkaqua.voidpixel.launcher;
+package net.darkaqua.launcher;
 
 import javax.swing.JFrame;
 
-import net.darkaqua.voidpixel.launcher.j.Buttons;
-import net.darkaqua.voidpixel.launcher.j.CheckBoxes;
-import net.darkaqua.voidpixel.launcher.j.Fields;
-import net.darkaqua.voidpixel.launcher.j.Frames;
-import net.darkaqua.voidpixel.launcher.j.Panels;
+import net.darkaqua.launcher.j.Buttons;
+import net.darkaqua.launcher.j.CheckBoxes;
+import net.darkaqua.launcher.j.Fields;
+import net.darkaqua.launcher.j.Frames;
+import net.darkaqua.launcher.j.Panels;
 
 public class CreateLauncher {
 

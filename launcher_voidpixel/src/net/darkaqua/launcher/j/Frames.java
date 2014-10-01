@@ -1,11 +1,11 @@
-package net.darkaqua.voidpixel.launcher.j;
+package net.darkaqua.launcher.j;
 
 import java.awt.Color;
 import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 
-import net.darkaqua.voidpixel.launcher.CreateLauncher;
+import net.darkaqua.launcher.CreateLauncher;
 
 public class Frames {
 	

@@ -1,11 +1,11 @@
-package net.darkaqua.voidpixel.launcher.j;
+package net.darkaqua.launcher.j;
 
 import java.awt.Color;
 import java.awt.Font;
 
 import javax.swing.JButton;
 
-import net.darkaqua.voidpixel.launcher.listenerButtons;
+import net.darkaqua.launcher.listenerButtons;
 
 public class Buttons {
 	

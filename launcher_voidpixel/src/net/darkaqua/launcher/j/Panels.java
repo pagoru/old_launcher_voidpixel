@@ -1,4 +1,4 @@
-package net.darkaqua.voidpixel.launcher.j;
+package net.darkaqua.launcher.j;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -6,7 +6,7 @@ import java.awt.Panel;
 
 import javax.swing.JPanel;
 
-import net.darkaqua.voidpixel.launcher.CreateLauncher;
+import net.darkaqua.launcher.CreateLauncher;
 
 public class Panels {
 	

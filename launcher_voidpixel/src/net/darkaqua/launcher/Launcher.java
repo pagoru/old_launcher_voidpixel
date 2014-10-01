@@ -2,8 +2,6 @@ package net.darkaqua.launcher;
 
 import java.awt.EventQueue;
 
-import net.darkaqua.voidpixel.launcher.CreateLauncher;
-
 public class Launcher {
 	
 	public static void main(String[] args) throws Exception {

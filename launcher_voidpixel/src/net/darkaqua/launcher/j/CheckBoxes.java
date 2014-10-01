@@ -1,4 +1,4 @@
-package net.darkaqua.voidpixel.launcher.j;
+package net.darkaqua.launcher.j;
 
 import java.awt.Color;
 import java.awt.Font;
