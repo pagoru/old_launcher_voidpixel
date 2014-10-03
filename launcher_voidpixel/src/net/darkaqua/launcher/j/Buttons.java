@@ -4,6 +4,7 @@ import java.awt.Color;
 import java.awt.Font;
 
 import javax.swing.JButton;
+import javax.swing.SwingConstants;
 
 import net.darkaqua.launcher.listenerButtons;
 
@@ -11,30 +12,14 @@ public class Buttons {
 	
 	public static JButton btnExit = new JButton("Exit");
 	public static JButton btnPlay = new JButton("Play");
-	public static JButton btnRemember = new JButton("Forgot password?");
-
-	public static void btnRemember() {
-		
-		btnRemember.setFont(new Font("Tahoma", Font.PLAIN, 11));
-		btnRemember.setForeground(new Color(0, 102, 204));
-		
-		btnRemember.setBorderPainted(false);
-		btnRemember.setFocusPainted(false);
-		btnRemember.setContentAreaFilled(false);
-		
-		btnRemember.setBounds(220, 406, 130, 24);
-		Panels.panelLauncher.add(btnRemember);
-		
-		listenerButtons.listenerBtnRemember();
-		
-	}
+	public static JButton btnVisitUsWebpage = new JButton("Visit our webpage...");
 	
 	public static void btnPlay() {
 		
 		btnPlay.setBounds(688, 406, 102, 24);
-		Panels.panelLauncher.add(btnPlay);
 		btnPlay.setFont(new Font("Tahoma", Font.BOLD, 11));
 		btnPlay.setFocusPainted(false);
+		Panels.panelLauncher.add(btnPlay);
 		
 		listenerButtons.listenerBtnPlay();
 		
@@ -43,11 +28,27 @@ public class Buttons {
 	public static void btnExit() {
 		
 		btnExit.setBounds(10, 406, 102, 24);
-		Panels.panelLauncher.add(btnExit);
 		btnExit.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		btnExit.setFocusPainted(false);
+		Panels.panelLauncher.add(btnExit);
 		
 		listenerButtons.listenerBtnExit();
+		
+	}
+	
+	public static void btnVisitUsWebpage() {
+		
+		btnVisitUsWebpage.setHorizontalAlignment(SwingConstants.RIGHT);
+		btnVisitUsWebpage.setForeground(Color.WHITE);
+		btnVisitUsWebpage.setFont(new Font("Tahoma", Font.BOLD, 12));
+		btnVisitUsWebpage.setFocusPainted(false);
+		btnVisitUsWebpage.setContentAreaFilled(false);
+		btnVisitUsWebpage.setBorderPainted(false);
+		btnVisitUsWebpage.setBounds(607, 360, 163, 24);
+		
+		Panels.panelVersion.add(btnVisitUsWebpage);
+		
+		listenerButtons.listenerBtnVisitUsWebpage();
 		
 	}
 

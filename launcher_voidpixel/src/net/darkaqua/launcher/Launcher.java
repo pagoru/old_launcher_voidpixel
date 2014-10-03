@@ -11,8 +11,15 @@ public class Launcher {
 			@SuppressWarnings("static-access")
 			public void run() {
 
-				CreateLauncher window = new CreateLauncher();
-				window.frame.setVisible(true);
+				CreateLauncher window;
+				try {
+					window = new CreateLauncher();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
 				
 			}
 		});

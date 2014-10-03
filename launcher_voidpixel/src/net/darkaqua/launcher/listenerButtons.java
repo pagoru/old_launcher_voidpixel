@@ -9,6 +9,7 @@ import java.net.URISyntaxException;
 import java.net.URL;
 
 import net.darkaqua.launcher.j.Buttons;
+import net.darkaqua.launcher.j.Fields;
 
 public class listenerButtons {
 	
@@ -42,16 +43,20 @@ public class listenerButtons {
 					
 					try {
 						
-						CreateLauncher.frame.dispose();
-						
-						File  f = new File(System.getProperty("user.home") + "\\Documents\\VoidPixel\\bin");
-						f.mkdirs();
-						
-						Runtime.getRuntime().exec("java -Djava.library.path=" + System.getProperty("user.home") 
-								+ "\\Documents\\VoidPixel\\libs\\natives\\win; -jar " 
-								+ System.getProperty("user.home") + "\\Documents\\VoidPixel\\voidpixel.jar");
-						
-//						new Game();
+						if(Fields.textFieldUser.getText().equals("pagoru")){
+							
+							CreateLauncher.frame.dispose();
+							
+							File  f = new File(System.getProperty("user.home") + "\\Documents\\VoidPixel\\bin");
+							f.mkdirs();
+							
+							Runtime.getRuntime().exec("java -Djava.library.path=" + System.getProperty("user.home") 
+									+ "\\Documents\\VoidPixel\\libs\\natives\\win; -jar " 
+									+ System.getProperty("user.home") + "\\Documents\\VoidPixel\\voidpixel.jar");
+							
+//							new Game();
+							
+						}
 						
 					} catch (Exception e) {
 						
@@ -67,9 +72,9 @@ public class listenerButtons {
 		
 	}
 	
-	public static void listenerBtnRemember() {
+	public static void listenerBtnVisitUsWebpage() {
 		
-		Buttons.btnRemember.addActionListener(new ActionListener() {
+		Buttons.btnVisitUsWebpage.addActionListener(new ActionListener() {
 			
 			public void actionPerformed(ActionEvent e) {
 				

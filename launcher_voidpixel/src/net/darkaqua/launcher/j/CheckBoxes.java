@@ -13,7 +13,7 @@ public class CheckBoxes {
 		
 		chckbxRemember.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		chckbxRemember.setBackground(new Color(250, 250, 250));
-		chckbxRemember.setBounds(580, 406, 102, 24);
+		chckbxRemember.setBounds(508, 406, 102, 24);
 		Panels.panelLauncher.add(chckbxRemember);
 		
 	}
